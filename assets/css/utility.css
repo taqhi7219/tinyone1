@@ -1,0 +1,33 @@
+:root{
+	--color-pri: #fcdb00;
+	--text-pri: #010101;
+	--text-sec: #313841;
+	--text-tri: #555555;
+	--text-qut: #898989;
+	--text-white: #fff;
+}
+.pri-heading{
+	color: var(--text-pri);
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.sec-heading{
+	color: var(--text-sec);
+	font-size:20px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.para{
+	color: var(--text-tri);
+	font-size:16px;
+	font-weight:normal;
+	margin-bottom: 30px;
+}
+ul{
+	list-style: none;
+	padding: 0;
+}
+a:link, a:visited{
+	text-decoration: none;
+}

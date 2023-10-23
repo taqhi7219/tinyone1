@@ -1,0 +1,169 @@
+/*....................................section heroimg..................................*/
+.heroimg{
+	padding:75px 0 105px;
+	background-color: var(--color-pri);
+}
+.mainheader.navbar-default{
+	background-color:transparent;
+	border-color:transparent;
+}
+
+.mainheader .navbar-nav>li>a {
+    color: var(--text-pri);
+	font-size: 22px;
+	font-weight:bold;
+}
+.inprtn{
+	margin-top: 70px;
+}
+.brandlist li{
+	display:inline-block;
+	margin-right: 25px;
+}
+.brandlist li a i{
+	color: var(--text-pri);
+}
+
+/*....................................section heroimg end..................................*/
+
+/*....................................section features..................................*/
+
+.features{
+	padding:120px 0 80px;
+}
+.features .sec-heading{
+	margin-bottom: 90px;
+}
+.ourthamnail{
+	margin-bottom:90px;
+}
+.ourthamnail h4{
+	margin: 0 0 15px;
+	font-size:22px;
+	font-weight: bold;
+	color: var(--text-pri);
+}
+.ourthamnail p {
+	color: var(--text-qut);
+	font-size:16px;
+}
+
+/*....................................section features end..................................*/
+
+/*....................................section footer..................................*/
+
+.footer{
+	background-color: var(--text-pri);
+	padding:95px 0 140px;
+}
+.footer .pri-heading{
+	color: var(--color-pri);
+}
+.footer .sec-heading{
+	color: var(--text-qut);
+	margin-bottom:45px;
+}
+.footer .brandlist{
+	margin-bottom: 135px;
+}
+.footer .brandlist li a i{
+	color: var(--color-pri);
+}
+.signin{
+	margin-bottom: 75px;
+}
+.signin .email{
+	width: calc(100% - 175px);
+	display: inline-block;
+	margin-right: 20px;
+	height:50px;
+}
+.signin .email::placeholder{
+	color: var(--text-qut);
+}
+.signin .btn{
+	height: 50px;
+	width: 150px;
+	background-color: var(--color-pri);
+	color: var(--text-pri);
+	text-transform:uppercase;
+	border:1px solid var(--color-pri);
+}
+.signin .btn:hover,
+.signin .btn:focus,
+.signin .btn:active{
+	color: var(--color-pri);
+	background-color: var(--text-pri);
+}
+ .footerlinks li, .footerlinks a{
+	color: var(--text-white);
+}
+
+@media all and (min-width:768px){
+	.mainheader .navbar-brand{
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.mainheader{
+		margin-bottom: 55px;
+	}
+	.navbar-nav li{
+		float: left;
+		margin-left: 30px;
+	}
+	.ipad{
+		margin-left: 90px;
+	}
+}
+@media all and (max-width:768px){
+	.section{
+		padding:50px 0;
+	}
+	.mainheader .navbar-brand{
+		padding: 0 15px;
+	}
+	.mainheader .navbar-toggle{
+		border-color: var(--text-pri);
+	}
+	.mainheader .navbar-toggle .icon-bar{
+		background-color: var(--text-pri);
+	}
+	.inprtn{
+		margin-top: 0 0 20px ;
+	}
+	.features .sec-heading{
+		margin-bottom: 50px;
+	}
+	.ourthamnail{
+		margin-bottom: 20px;
+	}
+	.signin .email{
+		width: 100%;
+		margin: 0 0 20px;
+	}
+	.signin .btn{
+		width: 100%;
+	}
+	.signin{
+		margin-bottom: 30px;
+	}
+	.footer .brandlist{
+		margin-bottom: 30px;
+	}
+}
+@media all and (max-width:600px){
+	.ipad{
+		width:100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
